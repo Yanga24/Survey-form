@@ -1,80 +1,82 @@
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
+
 <h1 id="title">Muffins Survey form</h1>
 
 
-<p id="description">Thank you for filling up  the muffins survey form</p>
-
 <div id="body">
 
-<form id="survey-form">
+    <form id="survey-form">
+      <div id="form-inner">
+        <div id="space">
+          <label for="name" id="name-label">Name</label></br>
+   <input id="name" type="text" placeholder="Enter your name" required>
+        
+        
+        <div id="space-se">
+          <label for="number" id="name-label">Email</label></br>
+   <input id="email" type="text" placeholder="Enter your email" required>
   
+        </div>
+        
+        </div>
+       <div id="space-se">
+          <label for="number" id="name-label">Age</label></br>
+   <input id="number" type="number" placeholder="Enter your Age" min="18" max="25" required>
   
-  <label id="name-label" for="name">
-    <p>Name:</p>
-  </label>
-  <input id="name" type="text" placeholder="Enter your name" required>
-  
-  <label id="email-label" for="email">
-  <p>Email:</p>
-  </label>
-  
-  <input id="email" type="text" placeholder="Enter your email" required>
-  
-  <label id="number-label" for="number">
-  <p>Age:</p>
-  </label>
-  
-  
-  <input id="number" type="number" placeholder="Enter your Age" min="18" max="25" required>
-  
-  
-  <p>What size of muffin would you prefer:?</p>
-  
-   
-  <input type="radio"  name"muffin" value="1">Small</input>
-  
-  
-   <input type="radio"  name"muffin" value="1">Mini</input>
-  
+        </div>
+    <div id="space">
+    </div>
+    <label id="dropdown-label">What is your favourite Muffin flavour,  you like the most?
+      </label></br>
+    <select id="dropdown">
+      <option value="Avengers">Chocolate Muffins</option>
+      
+       <option value="Avengers">Banana Chocolate Chip Crumb</option>
+      
+        <option value="Avengers">Strawberry Orange Muffin</option>
+      
+       <option value="Avengers">Blueberry Muffin</option>
+      
+      <option value="first come first serve">Vanilla Muffins</option>
+    </select></br>
+    </div>
 
- <input type="radio"  name"muffin" value="1">Meduim</input>
-  
-  <p>What is your favourite Muffin flavour,  you like the most?:</p>
-  <select id="dropdown">
-    
-    <option value="choose">Muffin Flavour</option>
-    <option value="Chocolate Muffin.">Chocolate Muffin.</option>
-    <option value="Banana Chocolate Chip Crumb.">Banana Chocolate Chip Crumb.</option>
-    <option value="Strawberry Orange Muffin.">Strawberry Orange Muffin.</option>
-     <option value="Blueberry Muffin.">Blueberry Muffin.</option>
-  </select>
-  
-  <p>What time of day would you consume this muffin?</p>
-  
  
+
+<div id="space">
+<form-group>
+  <label id="select-label">What time of day would you consume this muffin?</label></br></label>
+<label>
+  </div>
+<label>
   
-  <input type="radio"  name"muffin" value="1">Morning muffins with Tea</input>
-  
-<br></br>
+  <div id="space-se">
+    <input type="checkbox" id="first-check" name="chocolate" value="taste">Morning muffins with Tea</br>
+    </div>
+  </label>
+<div id="space-sect">
+    <input type="checkbox" id="second-check" name="chocolate" value="taste">Breakfast muffins with Tea</br>
 
- <input type="radio"  name"muffin" value="2">Breakfast muffins with Tea</input>
-
-<br></br>
-
-<input type="radio"  name"muffin" value="2">Afternoon muffins with Tea</input>
-
+ </div>
+  </label>
+<div id="space-se">
+    <input type="checkbox" id="second-check" name="chocolate" value="taste">Afternoon muffins with Tea</br></br>
+</div>
+</label>
+  </form-group>
+<div id="space-se">
+</div>
 
 <p>How would you like your muffin served?</p>
 
-
 <input type="checkbox" name"muffin" value="1">Boxed</input>
 
-<br></br>
+
 
 <input type="checkbox" name"muffin" value="1">Paper Bag</input>
 
-<br></br>
+
 
 <input type="checkbox" name"muffin" value="1">Patty pan</input>
 </div>
@@ -82,15 +84,15 @@
 
 
 
-
-<textarea id="content" rows="4" cols="40">Add comment here</textarea>
-
-<br></br>
-
-<input id="submit" type="submit" value="submit">
-
-
-
-</form>
-
+<label id="feed-label">Feed-back</label></br>
 </div>
+<div id="space-sect">
+  <textarea id="text-area" plceholder="Any-comment"></textarea><br></br>
+</div>
+</div>
+<input type="submit" id="submit">
+
+
+
+    </form>
+      </div>

@@ -1,71 +1,72 @@
 body{
-    text-align:center;
-    font-family:sans-serif;
-    font-family:helvetica;
-    background-image:linear-gradient(to bottom right,  #33adff,#73CCe6);
-    color:black;
-  }
-  
-  #title{
-    font-size:30px;
-  }
-  
-  #description{
-    font-size:20px;
-  }
-  
-  #body{
-    width:600px;
-    padding:30px;
-    margin:auto;
-    border-radius:10px;
-    text-align:left;
-    background-color:rgba(0,0,0,0.6);
-    font-size:20px;
-    color:white;
-  }
-  
-  #name{
-    width:200px;
-    padding:10px;
-    border-radius:100px;
-  }
-  
-  #email{
-     width:200px;
-    padding:10px;
-    border-radius:100px;
-  }
-  
-  #number{
-     width:200px;
-    padding:10px;
-    border-radius:100px;
-  }
-  
-  #dropdown{
-     width:200px;
-    padding:10px;
-    border-radius:100px;
-  }
-  
-  #comment{
-    width:400px;
-    padding:10px;
-    border-radius:10px;
-    border:name;
-  }
-  
-  #submit{
-     width:200px;
-    padding:10px;
-    border-radius:100px;
-    border:name;
-    margin-top:2%;
-    color:white;
-    background-color:green;
-    
-  }
-  
+  text-align:center;
+ font-family:sans-serif;
+  font-family:helvetica;
+   background-color: #D3D3D3;
+ color:black;
+}
+
+#title{
+ font-size:30px;
+}
+
+#description{
+ font-size:20px;
+}
+
+body{
+ width:600px;
+ padding:30px;
+ margin:auto;
+ border-radius:20px;
+ text-align:left;
+ background-color:rgba(0,0,0,0.6);
+ font-size:20px;
+ color:black;
+}
+
+#name{
+ width:200px;
+ padding:10px;
+ border-radius:200px;
+}
+
+#email{
+  width:200px;
+ padding:10px;
+ text-align:left;
+ border-radius:100px;
+}
+
+#number{
+  width:200px;
+ padding:10px;
+ border-radius:100px;
+}
+
+#dropdown{
+  width:200px;
+ padding:10px;
+ border-radius:100px;
+}
+
+#comment{
+ width:400px;
+ padding:10px;
+ border-radius:10px;
+ border:name;
+}
+
+#submit{
+  width:200px;
+ padding:10px;
+ border-radius:100px;
+ border:name;
+ margin-top:2%;
+ color:white;
+ background-color:green;
+ 
+}
+
 
   
