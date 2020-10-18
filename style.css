@@ -1,72 +1,55 @@
 body{
-  text-align:center;
- font-family:sans-serif;
-  font-family:helvetica;
-   background-color: #D3D3D3;
- color:black;
+  background-color: lightblue;
+}
+
+h1 {
+  text-align: center;
 }
 
 #title{
- font-size:30px;
+  font-size:30px;
 }
 
 #description{
- font-size:20px;
-}
-
-body{
- width:600px;
- padding:30px;
- margin:auto;
- border-radius:20px;
- text-align:left;
- background-color:rgba(0,0,0,0.6);
- font-size:20px;
- color:black;
+  font-size:15px;
+  text-align:center;
 }
 
 #name{
- width:200px;
- padding:10px;
- border-radius:200px;
+  width:100px;
+   text-align:left;
 }
 
 #email{
-  width:200px;
- padding:10px;
- text-align:left;
- border-radius:100px;
+   width:100px;
+  text-align:left;
 }
 
 #number{
-  width:200px;
- padding:10px;
- border-radius:100px;
+   width:100px;
+  text-align:left;
 }
 
 #dropdown{
-  width:200px;
- padding:10px;
- border-radius:100px;
+   width:100px;  
 }
 
 #comment{
- width:400px;
- padding:10px;
- border-radius:10px;
- border:name;
+  width:400px;
+  padding:10px;
+  border-radius:10px;
+  border:name;
 }
 
 #submit{
-  width:200px;
- padding:10px;
- border-radius:100px;
- border:name;
- margin-top:2%;
- color:white;
- background-color:green;
- 
+   width:100px;
+  padding:10px;
+  border-radius:100px;
+  border:name;
+  margin-top:2%;
+  color:white;
+  background-color:green;
+  
 }
 
-
-  
+ 

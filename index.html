@@ -1,98 +1,91 @@
-<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-
-
-<h1 id="title">Muffins Survey form</h1>
-
-
-<div id="body">
-
-    <form id="survey-form">
-      <div id="form-inner">
-        <div id="space">
-          <label for="name" id="name-label">Name</label></br>
-   <input id="name" type="text" placeholder="Enter your name" required>
-        
-        
-        <div id="space-se">
-          <label for="number" id="name-label">Email</label></br>
-   <input id="email" type="text" placeholder="Enter your email" required>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
+  </script>
   
-        </div>
-        
-        </div>
-       <div id="space-se">
-          <label for="number" id="name-label">Age</label></br>
-   <input id="number" type="number" placeholder="Enter your Age" min="18" max="25" required>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <title>Document</title>
+
+
+<head>
+<body>
   
-        </div>
-    <div id="space">
-    </div>
-    <label id="dropdown-label">What is your favourite Muffin flavour,  you like the most?
-      </label></br>
-    <select id="dropdown">
-      <option value="Avengers">Chocolate Muffins</option>
+  
+  <!-- <div class="container-fluid"> -->
+    <h1 class=" text-center" id="title">  Survey Form </h1>
+    
+  
+      <p class="text-center" id="description" > Make sure you not missing out to fill in the survey form </p>
       
-       <option value="Avengers">Banana Chocolate Chip Crumb</option>
+      <form id ="survey-form" >
+      <label id="name-label"> Name </label>
+      <input type ="text" value="Enter your name" required id="name" placeholder="Enter your name">
+       
+        <br></br>
+        
+        <label id="email-label">  Email </label>
+        
+      <input type="email" value="Enter your email" required id="email" placeholder="Enter your email">
+       
+      <br></br>
       
-        <option value="Avengers">Strawberry Orange Muffin</option>
-      
-       <option value="Avengers">Blueberry Muffin</option>
-      
-      <option value="first come first serve">Vanilla Muffins</option>
-    </select></br>
-    </div>
-
- 
-
-<div id="space">
-<form-group>
-  <label id="select-label">What time of day would you consume this muffin?</label></br></label>
-<label>
+        <label id="number-label">  Age </label>
+      <input type="number" value="Enter your age" min=8 max=90 id="number" placeholder="Enter your age">
+        
+        <br></br>
+        
+        <label >What is your favourite Muffin flavour,  you like the most?</label>
+        
+        <select name="role" id="dropdown">
+          <option value="selectanoption" selected> Select an option </option>
+          <option value="Chocolate muffin"> Chocolate muffin </option>
+          <option value="Bannana muffin"> Bannana muffin</option>
+          <option value="bannana muffin">bannana muffin</option>
+          <option value="Other">Other </option>
+          
+        </select>
+        
+      <br></br>
+  
+        <label>  What time of day would you consume this muffin? </label>
+        <fieldset>
+          <label> <input type="radio" name="frequency" value="definitely" checked >Morning muffins </label>
+          <label> <input type="radio" name="frequency" value="Breakfast muffins" >Breakfast  </label>
+        <label> <input type="radio" name="frequency" value="Afternoon muffins" >Afternoon muffins  <label>
+          </fieldset>
+        
+           <br></br>
+          
+  
+        
+          <br></br>
+          
+        
+        <label>How would you like your muffin served?</label>
+          <fieldset>
+        <label> <input type="checkbox" name="improvements" value="Diversity of VR devices" >Boxed  </label>
+        <label> <input type="checkbox" name="improvements" value="Price of entry" > Paper Bag </label>
+         <label> <input type="checkbox" name="imrovements" value="Duration of a session" > Patty pan </label>
+          </fieldset>
+  
+          <br></br>
+  
+      <label>For any additional questions feel free to leave a comment:</label>
+  <div id="message">
+  <textarea type="message" placeholder="Leave comments here"></textarea>
   </div>
-<label>
-  
-  <div id="space-se">
-    <input type="checkbox" id="first-check" name="chocolate" value="taste">Morning muffins with Tea</br>
-    </div>
-  </label>
-<div id="space-sect">
-    <input type="checkbox" id="second-check" name="chocolate" value="taste">Breakfast muffins with Tea</br>
-
- </div>
-  </label>
-<div id="space-se">
-    <input type="checkbox" id="second-check" name="chocolate" value="taste">Afternoon muffins with Tea</br></br>
-</div>
-</label>
-  </form-group>
-<div id="space-se">
-</div>
-
-<p>How would you like your muffin served?</p>
-
-<input type="checkbox" name"muffin" value="1">Boxed</input>
-
-
-
-<input type="checkbox" name"muffin" value="1">Paper Bag</input>
-
-
-
-<input type="checkbox" name"muffin" value="1">Patty pan</input>
-</div>
-<br></br>
-
-
-
-<label id="feed-label">Feed-back</label></br>
-</div>
-<div id="space-sect">
-  <textarea id="text-area" plceholder="Any-comment"></textarea><br></br>
-</div>
-</div>
-<input type="submit" id="submit">
-
-
-
-    </form>
+                                                        
+       
+        <button type="submit" class="btn btn-primary" id="submit" >Submit </button>
+       
+        
+      </form>
+      
       </div>
+  </div>
+</head>
+</body>
+  
